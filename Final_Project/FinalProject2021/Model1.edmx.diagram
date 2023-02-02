@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5c945a8694814a1db1db6bcd2f90d4ac" Name="Diagram1" ZoomLevel="72">
+        <EntityTypeShape EntityType="FinalProjectDBModel.Author" Width="1.5" PointX="6.125" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinalProjectDBModel.Book" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinalProjectDBModel.Category" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinalProjectDBModel.Customer" Width="1.5" PointX="9" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinalProjectDBModel.Employee" Width="1.5" PointX="3.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinalProjectDBModel.Order" Width="1.5" PointX="8.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinalProjectDBModel.Publisher" Width="1.5" PointX="3" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinalProjectDBModel.UsersAccount" Width="1.5" PointX="0.5" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinalProjectDBModel.AuthorBook" Width="1.5" PointX="6.375" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinalProjectDBModel.OrderDetail" Width="1.5" PointX="6.375" PointY="1.875" IsExpanded="true" />
+        <AssociationConnector Association="FinalProjectDBModel.FK_AuthorBooks_AuthorID" ManuallyRouted="false" />
+        <AssociationConnector Association="FinalProjectDBModel.FK_AuthorBooks_ISBN" ManuallyRouted="false" />
+        <AssociationConnector Association="FinalProjectDBModel.FK_Books_CategoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="FinalProjectDBModel.FK_Books_PublisherID" ManuallyRouted="false" />
+        <AssociationConnector Association="FinalProjectDBModel.FK_OrderDetails_ISBN" ManuallyRouted="false" />
+        <AssociationConnector Association="FinalProjectDBModel.FK_Orders_CustomerID" ManuallyRouted="false" />
+        <AssociationConnector Association="FinalProjectDBModel.FK_UsersAccount_UsersAccount" ManuallyRouted="false" />
+        <AssociationConnector Association="FinalProjectDBModel.FK_OrderDetails_OrderID" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

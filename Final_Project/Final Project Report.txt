@@ -1,0 +1,3 @@
+This couse gave me a new outlook about programming. Because in previous semeseter I only knew how to use the C# object oriented programming with a basic windows form. And a lot of my concepts were unclear. This semester I learnt many of the prviously unclear concepts. (For Ex: In the beginning of semester i did not know what is a class.) I also learned how database communicates with an application, the entity relationship model etc. Overall, It was a fun learning experience and I hope get you or a teacher like you in the next course. Thank you so much.
+
+	In this project, I had many challanges and I took help from my classmates in case of errors (especially Mingyao Li), other than that it is an individual project.
